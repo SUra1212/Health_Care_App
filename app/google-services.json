@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1083847918479",
+    "project_id": "uee-milestone-project",
+    "storage_bucket": "uee-milestone-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083847918479:android:fb9b0e32594507759841fa",
+        "android_client_info": {
+          "package_name": "com.example.clinicmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083847918479-s0ft3lh8dk83h55gcgl6u04o95sffc6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNKQoaV7YI6JhPxr5vF5ItoRrEQo9yfLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083847918479-s0ft3lh8dk83h55gcgl6u04o95sffc6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083847918479:android:8d4157a9af9e51899841fa",
+        "android_client_info": {
+          "package_name": "com.example.doctormanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083847918479-s0ft3lh8dk83h55gcgl6u04o95sffc6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNKQoaV7YI6JhPxr5vF5ItoRrEQo9yfLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083847918479-s0ft3lh8dk83h55gcgl6u04o95sffc6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

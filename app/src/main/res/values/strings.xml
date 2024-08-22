@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SUWA ARANA</string>
+
+
+    <string name="tv_bmi">BMI Calculator</string>
+    <string name="tv_weight">Weight</string>
+    <string name="weight">Weight in kg</string>
+    <string name="tv_height">Height</string>
+    <string name="height">Height in cm</string>
+    <string name="calculate_button">Calculte BMI</string>
+    <string name="result">Result</string>
+    <string name="tv_login1">Login</string>
+    <string name="tv_register2">Register</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+    <string name="srch_searchText">Search lab tests</string>
+    <string name="btn_test1">Full blood count</string>
+    <string name="btn_test2">Urine test</string>
+    <string name="btn_test3">PCR test</string>
+    <string name="tv_ready">Do you meet the requirements?</string>
+    <string name="ET_address">Enter address</string>
+    <string name="ET_phone">Enter phone number</string>
+    <string name="ET_email">Enter e-mail</string>
+    <string name="tv_testConduct">Preffered way of conducting test</string>
+    <string name="tv_paymentMethod">Payment method</string>
+    <string name="rb_visitHospital">Visit hospital</string>
+    <string name="rb_mobileTest">Mobile test</string>
+    <string name="rb_cash">Cash payment</string>
+    <string name="rb_card">Card payment</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_showAll">Show all</string>
+    <string name="tv_addressView">Address</string>
+    <string name="tv_phoneView">Phone number</string>
+    <string name="tv_emailView">Email</string>
+    <string name="btn_prepareTest">Request lab test</string>
+    <string name="rb_testYes">Yes</string>
+    <string name="rb_testNo">No</string>
+    <string name="et_feedback">Enter your feedback</string>
+    <string name="btn_submitFeed">Submit</string>
+</resources>

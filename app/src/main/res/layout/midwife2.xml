@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".midwife2"
+    android:background="@color/login">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="414dp"
+            android:layout_height="232dp"
+            android:layout_marginEnd="1dp"
+
+            android:alpha="0.8"
+            android:background="@drawable/midwife2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/mid1"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Title"
+            android:paddingStart="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/mid2"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Child partner’s name"
+            android:paddingStart="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid1" />
+
+        <EditText
+            android:id="@+id/mid3"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Address"
+            android:paddingStart="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid2" />
+
+        <EditText
+            android:id="@+id/mid4"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:paddingStart="12dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Phone No"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid3" />
+
+        <EditText
+            android:id="@+id/mid5"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="12dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid4" />
+
+        <EditText
+            android:id="@+id/mid6"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:paddingStart="12dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Are you requesting a specific midwife?"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid5" />
+        <EditText
+            android:id="@+id/mid7"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:paddingStart="12dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Do your child has any medical problem?"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid6" />
+        <EditText
+            android:id="@+id/mid8"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:paddingStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="If yes , Please discribe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid7" />
+        <EditText
+            android:id="@+id/mid9"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="13dp"
+            android:paddingStart="12dp"
+            android:background="@drawable/custome_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Child’s current weight"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid8" />
+
+
+        <Button
+            android:id="@+id/mid_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="20dp"
+            android:paddingStart="12dp"
+            android:layout_marginEnd="24dp"
+            android:text="SUBMIT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mid9" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClinicChannelingMainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/login"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="414dp"
+            android:layout_height="232dp"
+            android:layout_marginEnd="1dp"
+            android:alpha="0.9"
+            android:background="@drawable/clinicbg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:text="VIEW"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_submit" />
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/cage"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_man_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter your age"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cname" />
+
+        <EditText
+            android:id="@+id/cdiagnosis"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_man_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter Diagnosis"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cage" />
+
+
+        <EditText
+            android:id="@+id/cphone"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter your Number"
+            android:inputType="phone"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cgender" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="269dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="112dp"
+            android:backgroundTint="@color/white"
+            android:text="In case of emergency"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/caddress" />
+
+        <EditText
+            android:id="@+id/cphone2"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Enter Number"
+            android:layout_marginLeft="16dp"
+            android:inputType="phone"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/caddress" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="24dp"
+            android:text="SUBMIT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/caddress" />
+
+        <EditText
+            android:id="@+id/cgender"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_man_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter Your Gender"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cdiagnosis" />
+
+        <EditText
+            android:id="@+id/caddress"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custome_input"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter your address"
+            android:inputType="textPersonName"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cphone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
